@@ -1,0 +1,290 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+     justify-content:space-between;
+    width: 100%;
+    padding: 10px 10px 0 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+.logo{
+    color: rgb(28, 25, 25);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.logo span{
+    color: rgb(133, 30, 230);
+}
+
+.navbar a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    padding-right: 40px;
+    text-decoration: none;
+    color: rgb(80, 78, 76);
+    transform: 0.3s;
+}
+.fa-solid{
+    font-size: 1.4rem;
+    padding-bottom: -5px;
+}
+
+.navbar a:hover{
+    color:rgb(133, 30, 230); ;
+}
+
+.navbar a:nth-child(1){
+    color: rgb(133, 30, 230);
+}
+
+.navbar a:nth-child(1):hover{
+    color: rgb(80, 78, 76) ;
+}
+
+
+.talk-btn {
+    color: white;
+    background-color:rgb(133, 30, 230) ;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(133, 30, 230) ;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.4s;
+}
+
+.talk-btn:hover{
+    color:rgb(133, 30, 230);
+    background-color: white;
+} */
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 30px 165px;
+}
+
+.container{
+    max-width: 550px;
+    color: rgb(28, 25, 25);
+}
+
+.container h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.container h1{
+    font-family: "Aoboshi One", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    padding: 8px  0 7px 0;
+}
+
+.container h1 span{
+    color: rgb(133, 30, 230);
+}
+.container h4{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    color: rgba(28, 25, 25, 0.711);
+}
+
+.container p{
+    font-family: "Geologica", sans-serif;
+    color: black;
+    padding: 10px 0 25px 0;
+    
+
+}
+
+.btns a{
+    background-color: rgb(133, 30, 230);
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    border: solid 2px rgb(133, 30, 230);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    transition: .4s;
+   
+}
+
+.btns a:hover{
+    background-color: white;
+    color: rgb(133, 30, 230);
+
+}
+
+.btns a:nth-child(2){
+    background-color: white;
+    color: rgb(133, 30, 230);
+    margin-left: 15px;
+}
+
+
+.btns a:nth-child(2):hover{
+    color: white;
+    background-color: rgb(133, 30, 230);
+}
+
+.social{
+    font-size: 2.15rem;
+    position: absolute;
+    bottom: 70px;
+    transition: .3s;
+
+}
+.social a{
+    padding-right: 18px;
+   
+}
+.social h4{
+    letter-spacing: normal;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
+
+.social h4 span{
+    color: rgb(133, 30, 230);
+}
+.social a:hover{
+   color: rgb(20, 4, 74);
+}
+
+.know-me {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-about {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home-about h1{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 3px;
+   color: rgb(133, 30, 230);
+    font-size: 3rem;
+    padding: 10px 0 60px 0;
+}
+
+.h4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-right: 380px;
+}
+
+.h4 h4{
+    font-size: 1.25rem;
+    letter-spacing: .5px;
+}
+
+.h4 h4 span{
+    font-style: italic;
+    color: rgb(133, 30, 230);
+}
+
+.h4 h4:nth-child(2){
+    padding-right: 50px;
+}
+
+
+.h4 h4:nth-child(4){
+    padding-left: 45px;
+}
+
+.img1{
+    height: 355px;
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 300px;
+    right: 75px;
+    border: 2px solid rgb(133, 30, 230);
+    border-radius: 10px;
+    box-shadow: rgba(133, 30, 230, 0.588);
+    transition: .4s;
+}
+
+.img1:hover{
+    box-shadow: 10px 10px rgba(133, 30, 230, 0.351);
+}
+
+.img1 img{
+    height: 350px;
+}
+
+.thank{
+    text-align:end;
+    font-family: 'Caveat', cursive;
+
+}
+
+.thank h5{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.712);
+}
+.thank li{
+    font-family: 'Pacifico', cursive;
+    font-size: .85rem;
+    padding: 0 0 0 150px;
+    color: rgba(0, 0, 0, 0.453);
+    list-style: none;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Belanosima', sans-serif;
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+
+footer span{
+    font-family: 'Times New Roman', Times, serif;
+}

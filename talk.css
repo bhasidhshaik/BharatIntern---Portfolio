@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('pic.jpg');
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.container textarea{
+    height: 320px;
+    width: 550px;
+    /* margin-top: 150px; */
+    color: rgb(87, 8, 161);
+    background-color:rgba(28, 25, 25, 0.348);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    border: 1px solid rgb(123, 24, 216);
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: block;
+   
+}
+.container input{
+   width: 520px;
+    border: 2px solid rgb(123, 24, 216);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    
+}
+
+.container input:nth-child(3){
+    width: 150px;
+    display: inline-block;
+    transition: ease-in-out .4s;
+    color: white;
+    background-color: rgb(109, 9, 202);
+}
+
+.container input:nth-child(3):hover {
+    background-color: white;
+    color: rgb(109, 9, 202);
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Belanosima', sans-serif;
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+
+footer span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width:1100px){
+    main{
+        background-image: none;
+    }
+    .container textarea{
+        width: 68%;
+    }
+    .container input{
+        width: 65%;
+    }
+    .container input:nth-child(3){
+        width: 20%;
+    }
+    nav{
+        float:inline-end;
+    }
+    .logo{
+        display: none;
+    }
+}

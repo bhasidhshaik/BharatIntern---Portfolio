@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+     justify-content:space-between;
+    width: 100%;
+    padding: 10px 10px 0 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+.logo{
+    color: rgb(28, 25, 25);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(28, 25, 25);
+}
+
+.logo span{
+    color: rgb(133, 30, 230);
+}
+
+.navbar a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    padding-right: 40px;
+    text-decoration: none;
+    color: rgb(80, 78, 76);
+    transform: 0.3s;
+}
+.fa-solid{
+    font-size: 1.4rem;
+    padding-bottom: -5px;
+}
+
+.navbar a:hover{
+    color:rgb(133, 30, 230); ;
+}
+
+.navbar a:nth-child(1){
+    color: rgb(133, 30, 230);
+}
+
+.navbar a:nth-child(1):hover{
+    color: rgb(80, 78, 76) ;
+}
+
+
+.talk-btn {
+    color: white;
+    background-color:rgb(133, 30, 230) ;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(133, 30, 230) ;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.4s;
+}
+
+.talk-btn:hover{
+    color:rgb(133, 30, 230);
+    background-color: white;
+}

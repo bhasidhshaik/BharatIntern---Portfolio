@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('aboutbg.jpg');
+    background-size: cover;
+    padding: 0 0 0 100px;
+}
+.container{
+    max-width: 700px;
+}
+
+.container h1{
+font-family: "Josefin Sans",sans-serif;
+color:  rgb(133, 30, 230);
+font-size: 3rem;
+padding-bottom: 15px;
+}
+
+.container h1 span {
+    color: rgb(28, 25, 25);
+}
+
+.container p{
+    color: rgb(28, 25, 25);
+    font-size: 1.38rem;
+    font-family: "Geologica", sans-serif;
+    padding-bottom: 30px;
+}
+
+.container p span{
+    color: rgb(133, 30, 230);
+}
+
+.hobby h3{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 1.7rem;
+    color: rgb(133, 30, 230);
+    padding-bottom: 15px;
+}
+
+.hobby li{
+    list-style: none;
+    font-family: "Geologica", sans-serif;
+    font-size: 1.39rem;
+    padding: 6px 0 6px 200px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Belanosima', sans-serif;
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+
+footer span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width:500px){
+    main{
+        padding: 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+    nav{
+        display: none;
+    }
+}
